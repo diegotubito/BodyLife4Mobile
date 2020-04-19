@@ -30,7 +30,7 @@
 		111EF6E5244C21B7003E5D61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		111EF6E7244C21B7003E5D61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		111EF6F9244C2234003E5D61 /* Develop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Develop.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		111EF6FA244C2234003E5D61 /* Production copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Production copy-Info.plist"; path = "/Users/daviddiegogomez/MyApps/iOS/BodyLife4Mobile/Application/Production copy-Info.plist"; sourceTree = "<absolute>"; };
+		111EF710244C2861003E5D61 /* infoDevelop.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = infoDevelop.plist; sourceTree = "<group>"; };
 		4EE37598881CFD86C54BE420 /* Pods-Production.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Production.debug.xcconfig"; path = "Target Support Files/Pods-Production/Pods-Production.debug.xcconfig"; sourceTree = "<group>"; };
 		543841FBCB6F2C935E39C156 /* Pods-Production.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Production.release.xcconfig"; path = "Target Support Files/Pods-Production/Pods-Production.release.xcconfig"; sourceTree = "<group>"; };
 		A271771B98CC65EDF341B3C5 /* Pods-Develop.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Develop.debug.xcconfig"; path = "Target Support Files/Pods-Develop/Pods-Develop.debug.xcconfig"; sourceTree = "<group>"; };
@@ -64,7 +64,6 @@
 			children = (
 				111EF6D8244C21B6003E5D61 /* Application */,
 				111EF6D7244C21B6003E5D61 /* Products */,
-				111EF6FA244C2234003E5D61 /* Production copy-Info.plist */,
 				53F777BF61A66732453FF864 /* Pods */,
 				2EEAFFDC9AD4F231695085AF /* Frameworks */,
 			);
@@ -87,6 +86,7 @@
 				111EF6DF244C21B6003E5D61 /* Main.storyboard */,
 				111EF6E2244C21B7003E5D61 /* Assets.xcassets */,
 				111EF6E4244C21B7003E5D61 /* LaunchScreen.storyboard */,
+				111EF710244C2861003E5D61 /* infoDevelop.plist */,
 				111EF6E7244C21B7003E5D61 /* Info.plist */,
 			);
 			path = Application;
@@ -457,7 +457,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = S2BEC8V882;
-				INFOPLIST_FILE = "Production copy-Info.plist";
+				INFOPLIST_FILE = Application/infoDevelop.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -477,7 +477,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = S2BEC8V882;
-				INFOPLIST_FILE = "Production copy-Info.plist";
+				INFOPLIST_FILE = Application/infoDevelop.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
