@@ -31,3 +31,13 @@ target 'Production' do
   shared_pods
 
 end
+
+
+target 'FirebaseManager' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+  project 'FirebaseManager/FirebaseManager.xcodeproj'
+  # Pods for Production
+  shared_pods
+
+end

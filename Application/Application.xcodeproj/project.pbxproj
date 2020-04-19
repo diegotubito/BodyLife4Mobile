@@ -39,6 +39,11 @@
 		111EF73D244CC3BA003E5D61 /* Paths.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111EF73C244CC3BA003E5D61 /* Paths.swift */; };
 		111EF749244CC5CA003E5D61 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111EF748244CC5CA003E5D61 /* Router.swift */; };
 		111EF74A244CC5CE003E5D61 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111EF748244CC5CA003E5D61 /* Router.swift */; };
+		111EF800244CE60B003E5D61 /* FirebaseManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 111EF7FF244CE60B003E5D61 /* FirebaseManager.framework */; };
+		111EF801244CE60B003E5D61 /* FirebaseManager.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 111EF7FF244CE60B003E5D61 /* FirebaseManager.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		111EF803244CE610003E5D61 /* FirebaseManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 111EF802244CE610003E5D61 /* FirebaseManager.framework */; };
+		111EF804244CE610003E5D61 /* FirebaseManager.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 111EF802244CE610003E5D61 /* FirebaseManager.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		111EF806244CE67E003E5D61 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 111EF805244CE67D003E5D61 /* GoogleService-Info.plist */; };
 		654B6CFBF167DDCC3BA8C3C1 /* Pods_Develop.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D98AE7CDC74595BC35868F75 /* Pods_Develop.framework */; };
 		C6A12D4E05D5DC23A6109260 /* Pods_Production.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A41B0D5A5B7F0594A2D16A45 /* Pods_Production.framework */; };
 /* End PBXBuildFile section */
@@ -51,6 +56,7 @@
 			dstSubfolderSpec = 10;
 			files = (
 				111EF714244C2956003E5D61 /* Common.framework in Embed Frameworks */,
+				111EF801244CE60B003E5D61 /* FirebaseManager.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -62,6 +68,7 @@
 			dstSubfolderSpec = 10;
 			files = (
 				111EF718244C295D003E5D61 /* Common.framework in Embed Frameworks */,
+				111EF804244CE610003E5D61 /* FirebaseManager.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -90,6 +97,9 @@
 		111EF73A244CC35E003E5D61 /* FirebaseManagerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseManagerExtension.swift; sourceTree = "<group>"; };
 		111EF73C244CC3BA003E5D61 /* Paths.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Paths.swift; sourceTree = "<group>"; };
 		111EF748244CC5CA003E5D61 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		111EF7FF244CE60B003E5D61 /* FirebaseManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		111EF802244CE610003E5D61 /* FirebaseManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		111EF805244CE67D003E5D61 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		4EE37598881CFD86C54BE420 /* Pods-Production.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Production.debug.xcconfig"; path = "Target Support Files/Pods-Production/Pods-Production.debug.xcconfig"; sourceTree = "<group>"; };
 		543841FBCB6F2C935E39C156 /* Pods-Production.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Production.release.xcconfig"; path = "Target Support Files/Pods-Production/Pods-Production.release.xcconfig"; sourceTree = "<group>"; };
 		A271771B98CC65EDF341B3C5 /* Pods-Develop.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Develop.debug.xcconfig"; path = "Target Support Files/Pods-Develop/Pods-Develop.debug.xcconfig"; sourceTree = "<group>"; };
@@ -104,6 +114,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C6A12D4E05D5DC23A6109260 /* Pods_Production.framework in Frameworks */,
+				111EF800244CE60B003E5D61 /* FirebaseManager.framework in Frameworks */,
 				111EF713244C2956003E5D61 /* Common.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -113,6 +124,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				654B6CFBF167DDCC3BA8C3C1 /* Pods_Develop.framework in Frameworks */,
+				111EF803244CE610003E5D61 /* FirebaseManager.framework in Frameworks */,
 				111EF717244C295D003E5D61 /* Common.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -153,6 +165,7 @@
 				111EF6E4244C21B7003E5D61 /* LaunchScreen.storyboard */,
 				111EF710244C2861003E5D61 /* infoDevelop.plist */,
 				111EF6E7244C21B7003E5D61 /* Info.plist */,
+				111EF805244CE67D003E5D61 /* GoogleService-Info.plist */,
 			);
 			path = Application;
 			sourceTree = "<group>";
@@ -238,6 +251,8 @@
 		2EEAFFDC9AD4F231695085AF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				111EF802244CE610003E5D61 /* FirebaseManager.framework */,
+				111EF7FF244CE60B003E5D61 /* FirebaseManager.framework */,
 				111EF716244C295D003E5D61 /* Common.framework */,
 				111EF712244C2956003E5D61 /* Common.framework */,
 				D98AE7CDC74595BC35868F75 /* Pods_Develop.framework */,
@@ -342,6 +357,7 @@
 			files = (
 				111EF6E6244C21B7003E5D61 /* LaunchScreen.storyboard in Resources */,
 				111EF6E3244C21B7003E5D61 /* Assets.xcassets in Resources */,
+				111EF806244CE67E003E5D61 /* GoogleService-Info.plist in Resources */,
 				111EF6E1244C21B6003E5D61 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -624,7 +640,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = DDG.Application;
+				PRODUCT_BUNDLE_IDENTIFIER = DDG.BodyLife4MobileApplication;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -643,7 +659,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = DDG.Application;
+				PRODUCT_BUNDLE_IDENTIFIER = DDG.BodyLife4MobileApplication;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = PRODUCTION;
 				SWIFT_VERSION = 5.0;
@@ -663,7 +679,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = DDG.Application;
+				PRODUCT_BUNDLE_IDENTIFIER = DDG.BodyLife4MobileApplication;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEVELOP;
 				SWIFT_VERSION = 5.0;
@@ -683,7 +699,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = DDG.Application;
+				PRODUCT_BUNDLE_IDENTIFIER = DDG.BodyLife4MobileApplication;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "";
 				SWIFT_VERSION = 5.0;

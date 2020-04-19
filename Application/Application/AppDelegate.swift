@@ -8,6 +8,8 @@
 
 import UIKit
 import Common
+import FirebaseManager
+
 
 var UserID : String?
 var DateReference = "01-01-2020 00:00:00".toDate(formato: "dd-MM-yyyy HH:mm:ss")!
@@ -25,6 +27,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         #else
         print("Production")
         #endif
+    
         
         return true
     }

@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import FirebaseManager
 
 class LoginPasswordViewModel: LoginPasswordViewModelContract {
     var model : LoginPasswordModel!
@@ -21,7 +22,8 @@ class LoginPasswordViewModel: LoginPasswordViewModelContract {
     func Login(password: String) {
         let email = model.username
         _view.showLoading()
-        FirebaseManager.Authentication.shared.SignInWithEmail(email: email!, password: password, success: { (userResul) in
+        
+        AuthManager.shared.SignInWithEmail(email: email!, password: password, success: { (userResul) in
             self._view.hideLoading()
             self._view.showSuccess()
         }) { (error) in

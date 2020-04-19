@@ -9,6 +9,7 @@
 import Foundation
 import Firebase
 
+/*
 extension FirebaseManager {
     class FirebaseDatabase {
         static let shared = FirebaseDatabase()
@@ -395,3 +396,4 @@ extension FirebaseManager {
         }
     }
 }
+*/
