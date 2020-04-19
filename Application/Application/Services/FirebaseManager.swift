@@ -7,8 +7,7 @@
 //
 
 import UIKit
-import FirebaseAuth
-
+/*
 struct FirebaseManager {
     struct Authentication {
         static let shared = Authentication()
@@ -84,3 +83,4 @@ struct FirebaseManager {
     }
 }
 
+*/

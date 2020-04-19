@@ -5,6 +5,9 @@
       location = "group:Application/Application.xcodeproj">
    </FileRef>
    <FileRef
+      location = "group:FirebaseManager/FirebaseManager.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:Common/Common.xcodeproj">
    </FileRef>
    <FileRef

@@ -21,13 +21,14 @@ class LoginPasswordViewModel: LoginPasswordViewModelContract {
     func Login(password: String) {
         let email = model.username
         _view.showLoading()
-        FirebaseManager.Authentication.shared.SignInWithEmail(email: email!, password: password, success: { (userResul) in
+    /*    FirebaseManager.Authentication.shared.SignInWithEmail(email: email!, password: password, success: { (userResul) in
             self._view.hideLoading()
             self._view.showSuccess()
         }) { (error) in
             self._view.showError(error?.localizedDescription ?? "")
             self._view.hideLoading()
         }
+ */
     }
     
    
