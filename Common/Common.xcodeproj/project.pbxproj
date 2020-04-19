@@ -8,12 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		111EF70A244C2530003E5D61 /* Common.h in Headers */ = {isa = PBXBuildFile; fileRef = 111EF708244C2530003E5D61 /* Common.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		111EF740244CC411003E5D61 /* MyExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111EF73F244CC411003E5D61 /* MyExtensions.swift */; };
+		111EF743244CC473003E5D61 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111EF742244CC473003E5D61 /* Constants.swift */; };
+		111EF746244CC4EE003E5D61 /* Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111EF745244CC4EE003E5D61 /* Layout.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		111EF705244C2530003E5D61 /* Common.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Common.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		111EF708244C2530003E5D61 /* Common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
 		111EF709244C2530003E5D61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		111EF73F244CC411003E5D61 /* MyExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyExtensions.swift; sourceTree = "<group>"; };
+		111EF742244CC473003E5D61 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		111EF745244CC4EE003E5D61 /* Layout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Layout.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,9 +53,36 @@
 			isa = PBXGroup;
 			children = (
 				111EF708244C2530003E5D61 /* Common.h */,
+				111EF744244CC4E6003E5D61 /* Layout */,
+				111EF741244CC469003E5D61 /* Constants */,
+				111EF73E244CC3EF003E5D61 /* Extensions */,
 				111EF709244C2530003E5D61 /* Info.plist */,
 			);
 			path = Common;
+			sourceTree = "<group>";
+		};
+		111EF73E244CC3EF003E5D61 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				111EF73F244CC411003E5D61 /* MyExtensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		111EF741244CC469003E5D61 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				111EF742244CC473003E5D61 /* Constants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		111EF744244CC4E6003E5D61 /* Layout */ = {
+			isa = PBXGroup;
+			children = (
+				111EF745244CC4EE003E5D61 /* Layout.swift */,
+			);
+			path = Layout;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -95,6 +128,7 @@
 				TargetAttributes = {
 					111EF704244C2530003E5D61 = {
 						CreatedOnToolsVersion = 11.4.1;
+						LastSwiftMigration = 1140;
 					};
 				};
 			};
@@ -131,6 +165,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				111EF740244CC411003E5D61 /* MyExtensions.swift in Sources */,
+				111EF743244CC473003E5D61 /* Constants.swift in Sources */,
+				111EF746244CC4EE003E5D61 /* Layout.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +297,7 @@
 		111EF70E244C2530003E5D61 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = S2BEC8V882;
@@ -276,6 +314,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = DDG.Common;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -284,6 +323,7 @@
 		111EF70F244C2530003E5D61 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = S2BEC8V882;

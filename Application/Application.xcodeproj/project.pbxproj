@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -21,6 +21,24 @@
 		111EF714244C2956003E5D61 /* Common.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 111EF712244C2956003E5D61 /* Common.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		111EF717244C295D003E5D61 /* Common.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 111EF716244C295D003E5D61 /* Common.framework */; };
 		111EF718244C295D003E5D61 /* Common.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 111EF716244C295D003E5D61 /* Common.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		111EF72A244CC143003E5D61 /* LoginPasswordViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111EF721244CC143003E5D61 /* LoginPasswordViewModel.swift */; };
+		111EF72B244CC143003E5D61 /* LoginPasswordViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111EF721244CC143003E5D61 /* LoginPasswordViewModel.swift */; };
+		111EF72C244CC143003E5D61 /* LoginPasswordViewModelContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111EF722244CC143003E5D61 /* LoginPasswordViewModelContract.swift */; };
+		111EF72D244CC143003E5D61 /* LoginPasswordViewModelContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111EF722244CC143003E5D61 /* LoginPasswordViewModelContract.swift */; };
+		111EF72E244CC143003E5D61 /* LoginPasswordModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111EF724244CC143003E5D61 /* LoginPasswordModel.swift */; };
+		111EF72F244CC143003E5D61 /* LoginPasswordModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111EF724244CC143003E5D61 /* LoginPasswordModel.swift */; };
+		111EF730244CC143003E5D61 /* LoginPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111EF726244CC143003E5D61 /* LoginPasswordView.swift */; };
+		111EF731244CC143003E5D61 /* LoginPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111EF726244CC143003E5D61 /* LoginPasswordView.swift */; };
+		111EF732244CC143003E5D61 /* LoginUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111EF728244CC143003E5D61 /* LoginUserViewController.swift */; };
+		111EF733244CC144003E5D61 /* LoginUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111EF728244CC143003E5D61 /* LoginUserViewController.swift */; };
+		111EF734244CC144003E5D61 /* LoginNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111EF729244CC143003E5D61 /* LoginNavigationController.swift */; };
+		111EF735244CC144003E5D61 /* LoginNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111EF729244CC143003E5D61 /* LoginNavigationController.swift */; };
+		111EF738244CC331003E5D61 /* FirebaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111EF737244CC331003E5D61 /* FirebaseManager.swift */; };
+		111EF739244CC337003E5D61 /* FirebaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111EF737244CC331003E5D61 /* FirebaseManager.swift */; };
+		111EF73B244CC35E003E5D61 /* FirebaseManagerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111EF73A244CC35E003E5D61 /* FirebaseManagerExtension.swift */; };
+		111EF73D244CC3BA003E5D61 /* Paths.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111EF73C244CC3BA003E5D61 /* Paths.swift */; };
+		111EF749244CC5CA003E5D61 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111EF748244CC5CA003E5D61 /* Router.swift */; };
+		111EF74A244CC5CE003E5D61 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111EF748244CC5CA003E5D61 /* Router.swift */; };
 		654B6CFBF167DDCC3BA8C3C1 /* Pods_Develop.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D98AE7CDC74595BC35868F75 /* Pods_Develop.framework */; };
 		C6A12D4E05D5DC23A6109260 /* Pods_Production.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A41B0D5A5B7F0594A2D16A45 /* Pods_Production.framework */; };
 /* End PBXBuildFile section */
@@ -62,6 +80,16 @@
 		111EF710244C2861003E5D61 /* infoDevelop.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = infoDevelop.plist; sourceTree = "<group>"; };
 		111EF712244C2956003E5D61 /* Common.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Common.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		111EF716244C295D003E5D61 /* Common.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Common.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		111EF721244CC143003E5D61 /* LoginPasswordViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginPasswordViewModel.swift; sourceTree = "<group>"; };
+		111EF722244CC143003E5D61 /* LoginPasswordViewModelContract.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginPasswordViewModelContract.swift; sourceTree = "<group>"; };
+		111EF724244CC143003E5D61 /* LoginPasswordModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginPasswordModel.swift; sourceTree = "<group>"; };
+		111EF726244CC143003E5D61 /* LoginPasswordView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginPasswordView.swift; sourceTree = "<group>"; };
+		111EF728244CC143003E5D61 /* LoginUserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginUserViewController.swift; sourceTree = "<group>"; };
+		111EF729244CC143003E5D61 /* LoginNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginNavigationController.swift; sourceTree = "<group>"; };
+		111EF737244CC331003E5D61 /* FirebaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseManager.swift; sourceTree = "<group>"; };
+		111EF73A244CC35E003E5D61 /* FirebaseManagerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseManagerExtension.swift; sourceTree = "<group>"; };
+		111EF73C244CC3BA003E5D61 /* Paths.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Paths.swift; sourceTree = "<group>"; };
+		111EF748244CC5CA003E5D61 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
 		4EE37598881CFD86C54BE420 /* Pods-Production.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Production.debug.xcconfig"; path = "Target Support Files/Pods-Production/Pods-Production.debug.xcconfig"; sourceTree = "<group>"; };
 		543841FBCB6F2C935E39C156 /* Pods-Production.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Production.release.xcconfig"; path = "Target Support Files/Pods-Production/Pods-Production.release.xcconfig"; sourceTree = "<group>"; };
 		A271771B98CC65EDF341B3C5 /* Pods-Develop.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Develop.debug.xcconfig"; path = "Target Support Files/Pods-Develop/Pods-Develop.debug.xcconfig"; sourceTree = "<group>"; };
@@ -115,6 +143,10 @@
 			isa = PBXGroup;
 			children = (
 				111EF6D9244C21B6003E5D61 /* AppDelegate.swift */,
+				111EF73C244CC3BA003E5D61 /* Paths.swift */,
+				111EF747244CC5BC003E5D61 /* Router */,
+				111EF736244CC324003E5D61 /* Services */,
+				111EF71D244CC143003E5D61 /* Scenes */,
 				111EF6DD244C21B6003E5D61 /* ViewController.swift */,
 				111EF6DF244C21B6003E5D61 /* Main.storyboard */,
 				111EF6E2244C21B7003E5D61 /* Assets.xcassets */,
@@ -123,6 +155,84 @@
 				111EF6E7244C21B7003E5D61 /* Info.plist */,
 			);
 			path = Application;
+			sourceTree = "<group>";
+		};
+		111EF71D244CC143003E5D61 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				111EF71E244CC143003E5D61 /* Login */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		111EF71E244CC143003E5D61 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				111EF71F244CC143003E5D61 /* Password */,
+				111EF727244CC143003E5D61 /* User */,
+				111EF729244CC143003E5D61 /* LoginNavigationController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		111EF71F244CC143003E5D61 /* Password */ = {
+			isa = PBXGroup;
+			children = (
+				111EF720244CC143003E5D61 /* ViewModel */,
+				111EF723244CC143003E5D61 /* Model */,
+				111EF725244CC143003E5D61 /* View */,
+			);
+			path = Password;
+			sourceTree = "<group>";
+		};
+		111EF720244CC143003E5D61 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				111EF721244CC143003E5D61 /* LoginPasswordViewModel.swift */,
+				111EF722244CC143003E5D61 /* LoginPasswordViewModelContract.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		111EF723244CC143003E5D61 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				111EF724244CC143003E5D61 /* LoginPasswordModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		111EF725244CC143003E5D61 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				111EF726244CC143003E5D61 /* LoginPasswordView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		111EF727244CC143003E5D61 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				111EF728244CC143003E5D61 /* LoginUserViewController.swift */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		111EF736244CC324003E5D61 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				111EF737244CC331003E5D61 /* FirebaseManager.swift */,
+				111EF73A244CC35E003E5D61 /* FirebaseManagerExtension.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		111EF747244CC5BC003E5D61 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				111EF748244CC5CA003E5D61 /* Router.swift */,
+			);
+			path = Router;
 			sourceTree = "<group>";
 		};
 		2EEAFFDC9AD4F231695085AF /* Frameworks */ = {
@@ -160,6 +270,7 @@
 				111EF6D3244C21B6003E5D61 /* Frameworks */,
 				111EF6D4244C21B6003E5D61 /* Resources */,
 				111EF715244C2957003E5D61 /* Embed Frameworks */,
+				2FA2609CD6E8EB7CBAFA32C0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -179,6 +290,7 @@
 				111EF6F1244C2234003E5D61 /* Frameworks */,
 				111EF6F2244C2234003E5D61 /* Resources */,
 				111EF719244C295D003E5D61 /* Embed Frameworks */,
+				A3D18B1D9A29F347DA1F6517 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -247,6 +359,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		2FA2609CD6E8EB7CBAFA32C0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Production/Pods-Production-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Production/Pods-Production-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Production/Pods-Production-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		4795BA74A0C9DFF9C911D48D /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -267,6 +396,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A3D18B1D9A29F347DA1F6517 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Develop/Pods-Develop-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Develop/Pods-Develop-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Develop/Pods-Develop-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FA0D42F8BABBC469727B7290 /* [CP] Check Pods Manifest.lock */ = {
@@ -298,8 +444,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				111EF72E244CC143003E5D61 /* LoginPasswordModel.swift in Sources */,
+				111EF73D244CC3BA003E5D61 /* Paths.swift in Sources */,
+				111EF730244CC143003E5D61 /* LoginPasswordView.swift in Sources */,
+				111EF732244CC143003E5D61 /* LoginUserViewController.swift in Sources */,
+				111EF749244CC5CA003E5D61 /* Router.swift in Sources */,
+				111EF738244CC331003E5D61 /* FirebaseManager.swift in Sources */,
+				111EF73B244CC35E003E5D61 /* FirebaseManagerExtension.swift in Sources */,
 				111EF6DE244C21B6003E5D61 /* ViewController.swift in Sources */,
+				111EF72C244CC143003E5D61 /* LoginPasswordViewModelContract.swift in Sources */,
+				111EF72A244CC143003E5D61 /* LoginPasswordViewModel.swift in Sources */,
 				111EF6DA244C21B6003E5D61 /* AppDelegate.swift in Sources */,
+				111EF734244CC144003E5D61 /* LoginNavigationController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,8 +463,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				111EF72F244CC143003E5D61 /* LoginPasswordModel.swift in Sources */,
+				111EF731244CC143003E5D61 /* LoginPasswordView.swift in Sources */,
+				111EF74A244CC5CE003E5D61 /* Router.swift in Sources */,
+				111EF733244CC144003E5D61 /* LoginUserViewController.swift in Sources */,
+				111EF739244CC337003E5D61 /* FirebaseManager.swift in Sources */,
 				111EF6EF244C2234003E5D61 /* ViewController.swift in Sources */,
+				111EF72D244CC143003E5D61 /* LoginPasswordViewModelContract.swift in Sources */,
+				111EF72B244CC143003E5D61 /* LoginPasswordViewModel.swift in Sources */,
 				111EF6F0244C2234003E5D61 /* AppDelegate.swift in Sources */,
+				111EF735244CC144003E5D61 /* LoginNavigationController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

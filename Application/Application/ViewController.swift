@@ -15,11 +15,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         
-        #if DEVELOP
-            print("Develop")
-        #else
-            print("Production")
-        #endif
+       
     }
 
 }

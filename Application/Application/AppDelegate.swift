@@ -7,6 +7,10 @@
 //
 
 import UIKit
+import Common
+
+var UserID : String?
+var DateReference = "01-01-2020 00:00:00".toDate(formato: "dd-MM-yyyy HH:mm:ss")!
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -15,6 +19,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        #if DEVELOP
+        print("Develop")
+        #else
+        print("Production")
+        #endif
+        
         return true
     }
 
