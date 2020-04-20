@@ -37,13 +37,10 @@ open class AuthManager {
             AuthManager.userData = user
             AuthManager.userID = user?.uid
             if user == nil {
-                print("no hay usuario autenticado")
                 NotificationCenter.default.post(name: .NotLogin, object: nil)
                 
             } else {
                 NotificationCenter.default.post(name: .DidLogin, object: nil)
-                
-                print("you are logged in \(String(describing: user?.uid))")
             }
         }
     }

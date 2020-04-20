@@ -9,3 +9,9 @@ xcuserdata/
 *.xcuserstate
 
 BodyLife4Mobile.xcworkspace/xcuserdata/daviddiegogomez.xcuserdatad/UserInterfaceState.xcuserstate
+
+Pods/Pods.xcodeproj/xcuserdata/daviddiegogomez.xcuserdatad/xcschemes/xcschememanagement.plist
+
+Common/Common.xcodeproj/xcuserdata/daviddiegogomez.xcuserdatad/xcschemes/xcschememanagement.plist
+
+*.DS_Store
