@@ -27,11 +27,25 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         #else
         print("Production")
         #endif
-    
         
+        AuthManager.shared.ListenAuthChanges()
+        NotificationCenter.default.addObserver(self, selector: #selector(signOutHandler), name: .NotLogin, object: nil)
+        NotificationCenter.default.addObserver(self, selector: #selector(signInHandler), name: .DidLogin, object: nil)
+
+    
         return true
     }
-
-
+    
+    @objc func signOutHandler() {
+        Router.routeToLogin(window: &window)
+    }
+    
+    @objc func signInHandler() {
+        DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
+            Router.routeToTabBar(window: &self.window)
+        }
+        
+        
+    }
 }
 

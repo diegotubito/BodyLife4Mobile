@@ -23,10 +23,3 @@ struct Paths {
     static let productArticle = "product:article"
 }
 
-extension Notification.Name {
-          public static let DidLogin = Notification.Name(rawValue: "Login.DidLogin")
-           public static let NotLogin = Notification.Name(rawValue: "Login.NotLogin")
-    
-    public struct Login {
-    }
-}

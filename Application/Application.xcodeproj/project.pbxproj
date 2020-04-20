@@ -7,12 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1117B703244D3F4100545BD1 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1117B702244D3F4100545BD1 /* TabBarController.swift */; };
+		1117B704244D3F4100545BD1 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1117B702244D3F4100545BD1 /* TabBarController.swift */; };
+		1117B706244D3FE700545BD1 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1117B705244D3FE700545BD1 /* HomeViewController.swift */; };
+		1117B707244D3FE700545BD1 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1117B705244D3FE700545BD1 /* HomeViewController.swift */; };
+		1117B70A244D430400545BD1 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1117B709244D430400545BD1 /* SplashViewController.swift */; };
+		1117B70B244D430400545BD1 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1117B709244D430400545BD1 /* SplashViewController.swift */; };
+		1117B70D244D44BA00545BD1 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1117B70C244D44BA00545BD1 /* Login.storyboard */; };
+		1117B70E244D44BA00545BD1 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1117B70C244D44BA00545BD1 /* Login.storyboard */; };
 		111EF6DA244C21B6003E5D61 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111EF6D9244C21B6003E5D61 /* AppDelegate.swift */; };
-		111EF6DE244C21B6003E5D61 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111EF6DD244C21B6003E5D61 /* ViewController.swift */; };
 		111EF6E1244C21B6003E5D61 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 111EF6DF244C21B6003E5D61 /* Main.storyboard */; };
 		111EF6E3244C21B7003E5D61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 111EF6E2244C21B7003E5D61 /* Assets.xcassets */; };
 		111EF6E6244C21B7003E5D61 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 111EF6E4244C21B7003E5D61 /* LaunchScreen.storyboard */; };
-		111EF6EF244C2234003E5D61 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111EF6DD244C21B6003E5D61 /* ViewController.swift */; };
 		111EF6F0244C2234003E5D61 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111EF6D9244C21B6003E5D61 /* AppDelegate.swift */; };
 		111EF6F3244C2234003E5D61 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 111EF6E4244C21B7003E5D61 /* LaunchScreen.storyboard */; };
 		111EF6F4244C2234003E5D61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 111EF6E2244C21B7003E5D61 /* Assets.xcassets */; };
@@ -76,9 +82,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1117B702244D3F4100545BD1 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		1117B705244D3FE700545BD1 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		1117B709244D430400545BD1 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		1117B70C244D44BA00545BD1 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
 		111EF6D6244C21B6003E5D61 /* Production.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Production.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		111EF6D9244C21B6003E5D61 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		111EF6DD244C21B6003E5D61 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		111EF6E0244C21B6003E5D61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		111EF6E2244C21B7003E5D61 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		111EF6E5244C21B7003E5D61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -132,6 +141,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1117B701244D3F1B00545BD1 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				1117B705244D3FE700545BD1 /* HomeViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		1117B708244D42F700545BD1 /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				1117B709244D430400545BD1 /* SplashViewController.swift */,
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
 		111EF6CD244C21B6003E5D61 = {
 			isa = PBXGroup;
 			children = (
@@ -159,8 +184,8 @@
 				111EF747244CC5BC003E5D61 /* Router */,
 				111EF736244CC324003E5D61 /* Services */,
 				111EF71D244CC143003E5D61 /* Scenes */,
-				111EF6DD244C21B6003E5D61 /* ViewController.swift */,
 				111EF6DF244C21B6003E5D61 /* Main.storyboard */,
+				1117B70C244D44BA00545BD1 /* Login.storyboard */,
 				111EF6E2244C21B7003E5D61 /* Assets.xcassets */,
 				111EF6E4244C21B7003E5D61 /* LaunchScreen.storyboard */,
 				111EF710244C2861003E5D61 /* infoDevelop.plist */,
@@ -173,6 +198,9 @@
 		111EF71D244CC143003E5D61 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
+				1117B702244D3F4100545BD1 /* TabBarController.swift */,
+				1117B708244D42F700545BD1 /* Splash */,
+				1117B701244D3F1B00545BD1 /* Home */,
 				111EF71E244CC143003E5D61 /* Login */,
 			);
 			path = Scenes;
@@ -358,6 +386,7 @@
 				111EF6E6244C21B7003E5D61 /* LaunchScreen.storyboard in Resources */,
 				111EF6E3244C21B7003E5D61 /* Assets.xcassets in Resources */,
 				111EF806244CE67E003E5D61 /* GoogleService-Info.plist in Resources */,
+				1117B70D244D44BA00545BD1 /* Login.storyboard in Resources */,
 				111EF6E1244C21B6003E5D61 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -366,6 +395,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1117B70E244D44BA00545BD1 /* Login.storyboard in Resources */,
 				111EF6F3244C2234003E5D61 /* LaunchScreen.storyboard in Resources */,
 				111EF6F4244C2234003E5D61 /* Assets.xcassets in Resources */,
 				111EF6F5244C2234003E5D61 /* Main.storyboard in Resources */,
@@ -461,13 +491,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				111EF72E244CC143003E5D61 /* LoginPasswordModel.swift in Sources */,
+				1117B703244D3F4100545BD1 /* TabBarController.swift in Sources */,
 				111EF73D244CC3BA003E5D61 /* Paths.swift in Sources */,
 				111EF730244CC143003E5D61 /* LoginPasswordView.swift in Sources */,
 				111EF732244CC143003E5D61 /* LoginUserViewController.swift in Sources */,
+				1117B70A244D430400545BD1 /* SplashViewController.swift in Sources */,
+				1117B706244D3FE700545BD1 /* HomeViewController.swift in Sources */,
 				111EF749244CC5CA003E5D61 /* Router.swift in Sources */,
 				111EF738244CC331003E5D61 /* FirebaseManager.swift in Sources */,
 				111EF73B244CC35E003E5D61 /* FirebaseManagerExtension.swift in Sources */,
-				111EF6DE244C21B6003E5D61 /* ViewController.swift in Sources */,
 				111EF72C244CC143003E5D61 /* LoginPasswordViewModelContract.swift in Sources */,
 				111EF72A244CC143003E5D61 /* LoginPasswordViewModel.swift in Sources */,
 				111EF6DA244C21B6003E5D61 /* AppDelegate.swift in Sources */,
@@ -481,14 +513,16 @@
 			files = (
 				111EF72F244CC143003E5D61 /* LoginPasswordModel.swift in Sources */,
 				111EF731244CC143003E5D61 /* LoginPasswordView.swift in Sources */,
+				1117B704244D3F4100545BD1 /* TabBarController.swift in Sources */,
+				1117B70B244D430400545BD1 /* SplashViewController.swift in Sources */,
 				111EF74A244CC5CE003E5D61 /* Router.swift in Sources */,
 				111EF733244CC144003E5D61 /* LoginUserViewController.swift in Sources */,
 				111EF739244CC337003E5D61 /* FirebaseManager.swift in Sources */,
-				111EF6EF244C2234003E5D61 /* ViewController.swift in Sources */,
 				111EF72D244CC143003E5D61 /* LoginPasswordViewModelContract.swift in Sources */,
 				111EF72B244CC143003E5D61 /* LoginPasswordViewModel.swift in Sources */,
 				111EF6F0244C2234003E5D61 /* AppDelegate.swift in Sources */,
 				111EF735244CC144003E5D61 /* LoginNavigationController.swift in Sources */,
+				1117B707244D3FE700545BD1 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,15 +7,15 @@
 //
 
 import UIKit
-/*
+
 class Router {
     static let shared = Router()
     
-    static func routeToTabBar(view: inout UIView) {
+    static func routeToTabBar(window: inout UIWindow?) {
         let storyboard = UIStoryboard.init(name: "Main", bundle: nil)
-        let tabBar = storyboard.instantiateViewController(withIdentifier: "MyTabBarController") as! MyTabBarController
-        view.window?.rootViewController = tabBar
-        view.window?.makeKeyAndVisible()
+        let tabBar = storyboard.instantiateViewController(withIdentifier: "TabBarController") as! TabBarController
+        window?.rootViewController = tabBar
+        window?.makeKeyAndVisible()
     }
     
     static func routeToRealLogin(view: inout UIView) {
@@ -24,21 +24,24 @@ class Router {
         view.window?.rootViewController = nc
         view.window?.makeKeyAndVisible()
     }
-    
+  /*
     static func routeToSplash(window: inout UIWindow?) {
         let storyboard = UIStoryboard.init(name: "Main", bundle: nil)
         let vc = storyboard.instantiateViewController(withIdentifier: "SplashViewController") as? SplashViewController
         window?.rootViewController = vc
         window?.makeKeyAndVisible()
     }
+   */
     
     static func routeToLogin(window: inout UIWindow?) {
+        print("routing to login")
         let storyboard = UIStoryboard.init(name: "Login", bundle: nil)
         let navigationController = storyboard.instantiateViewController(withIdentifier: "LoginNavigationController") as? LoginNavigationController
         window?.rootViewController = navigationController
         window?.makeKeyAndVisible()
     }
     
+    /*
     
     static func routeToHome(window: inout UIWindow?) {
         let storyboard = UIStoryboard.init(name: "Main", bundle: nil)
@@ -46,7 +49,8 @@ class Router {
         window?.rootViewController = tabBar
         window?.makeKeyAndVisible()
     }
-    
+    */
+    /*
     
     static func routeToCustomer(window: inout UIWindow?) {
         let storyboard = UIStoryboard.init(name: "Main", bundle: nil)
@@ -57,7 +61,8 @@ class Router {
         window?.makeKeyAndVisible()
         
     }
-    
+ */
+    /*
     static func routeToCustomerSecondViewController(window: inout UIWindow?) {
         let storyboard = UIStoryboard.init(name: "Main", bundle: nil)
         let tabBar = storyboard.instantiateViewController(withIdentifier: "MyTabBarController") as? MyTabBarController
@@ -72,7 +77,8 @@ class Router {
         }
         
     }
+ */
     
 }
 
-*/
+

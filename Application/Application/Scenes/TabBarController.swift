@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  TabBarController.swift
 //  Application
 //
 //  Created by David Diego Gomez on 19/04/2020.
@@ -7,16 +7,10 @@
 //
 
 import UIKit
-import Common
 
-class ViewController: UIViewController {
-
+class TabBarController : UITabBarController {
     override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        super .viewDidLoad()
         
-       
     }
-
 }
-

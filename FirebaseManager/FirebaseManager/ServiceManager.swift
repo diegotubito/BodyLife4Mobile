@@ -9,6 +9,16 @@
 import Foundation
 import Firebase
 
+extension Notification.Name {
+    public static let DidLogin = Notification.Name(rawValue: "Login.DidLogin")
+    public static let NotLogin = Notification.Name(rawValue: "Login.NotLogin")
+
+    
+    public struct Login {
+    }
+}
+
+
 
 open class AuthManager {
     public init() {
@@ -28,7 +38,11 @@ open class AuthManager {
             AuthManager.userID = user?.uid
             if user == nil {
                 print("no hay usuario autenticado")
+                NotificationCenter.default.post(name: .NotLogin, object: nil)
+                
             } else {
+                NotificationCenter.default.post(name: .DidLogin, object: nil)
+                
                 print("you are logged in \(String(describing: user?.uid))")
             }
         }
@@ -48,12 +62,10 @@ open class AuthManager {
         }
     }
     
-    public func SignOut(success: () -> Void, fail: () -> Void) {
+    public func SignOut() {
         do {
             try Auth.auth().signOut()
-            success()
         } catch {
-            fail()
             return
         }
     }

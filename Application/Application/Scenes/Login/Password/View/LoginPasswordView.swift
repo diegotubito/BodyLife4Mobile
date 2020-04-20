@@ -44,9 +44,7 @@ class LoginPasswordView: UIViewController, LoginPasswordViewContract {
             self.errorLabel.isHidden = false
             self.errorLabel.text = "Autorizado"
             self.errorLabel.textColor = .green
-            DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
-           //     Router.routeToTabBar(view: &self.view)
-            }
+            
         }
     }
     
